@@ -1,0 +1,8 @@
+### Assembler ###
+*.exe
+*.o
+*.obj
+*.bc
+
+# IDE
+*.jar
