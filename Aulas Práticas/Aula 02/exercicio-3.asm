@@ -8,11 +8,11 @@ li $s1, 0 # g
 li $s2, 50 # h
 li $s4, 2 # i
 
-la $s3, a # endereco de memoria da primeira posição do vetor a
+la $s3, a # endereco de memoria da primeira posicao do vetor a
 
  mul  $t1, $s4, 4 # i * 4
  
- add $t3, $s3, $t1 # endereco de memoria da posição i do vetor a
+ add $t3, $s3, $t1 # endereco de memoria da posicao i do vetor a
  
  lw $t2, ($t3) # carrega o valor da posição i do vetor a
  
